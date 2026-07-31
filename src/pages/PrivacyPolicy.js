@@ -23,7 +23,7 @@ import './PrivacyPolicy.css';
 export function PrivacyPolicy() {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Privacy Policy - Al Quran AI-Powered Islamic Companion";
+    document.title = "Privacy Policy - Al Quran App";
   }, []);
 
   const scrollToSection = (id) => {
@@ -135,7 +135,7 @@ export function PrivacyPolicy() {
 
           <p className="privacy-subtitle">
             Transparency and respect for your privacy are fundamental to our mission. 
-            Learn how the <strong className="text-[var(--color-primary-dark)]">Al Quran AI-Powered Islamic Companion</strong> protects your personal information, permissions, and rights.
+            Learn how the <strong className="text-[var(--color-primary-dark)]">Al Quran App</strong> protects your personal information, permissions, and rights.
           </p>
 
           <div className="privacy-meta flex items-center justify-center gap-4 mt-6">
@@ -187,7 +187,7 @@ export function PrivacyPolicy() {
               </div>
             </div>
             <p className="policy-text">
-              Welcome to the <strong>Al Quran AI-Powered Islamic Companion</strong> ("we," "our," or "us"). We are dedicated to providing a serene, safe, and privacy-respecting digital environment for reading the Quran, tracking daily prayers, and learning Islamic guidance. 
+              Welcome to the <strong>Al Quran App</strong> ("we," "our," or "us"). We are dedicated to providing a serene, safe, and privacy-respecting digital environment for reading the Quran, tracking daily prayers, and learning Islamic guidance. 
             </p>
             <p className="policy-text">
               This Privacy Policy details the exact data collection, permission usage, and security practices implemented in our application. It strictly adheres to the <strong>Google Play Developer Distribution Agreement</strong> and <strong>Google User Data Policies</strong>. By downloading or using our mobile application, you agree to the practices outlined in this policy.
@@ -359,7 +359,7 @@ export function PrivacyPolicy() {
               <ol className="steps-list">
                 <li>
                   <span className="step-num">1</span>
-                  <span>Open <strong>Al Quran AI-Powered Islamic Companion</strong> and log into your account.</span>
+                  <span>Open <strong>Al Quran App</strong> and log into your account.</span>
                 </li>
                 <li>
                   <span className="step-num">2</span>

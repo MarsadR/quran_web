@@ -50,7 +50,7 @@ export function Footer() {
               <li><Link to="/" onClick={scrollToTop} className="footer-link">Home</Link></li>
               <li><a href="#features" className="footer-link">Features</a></li>
               <li><a href="#ai-chat" className="footer-link">AI Assistant</a></li>
-              <li><a href="#jadwal" className="footer-link">Prayer Times</a></li>
+              <li><Link to="/about-us" onClick={scrollToTop} className="footer-link">About Us</Link></li>
               <li><a href="#premium" className="footer-link">Premium</a></li>
             </ul>
           </motion.div>
