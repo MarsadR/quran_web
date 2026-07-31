@@ -1,0 +1,130 @@
+.about-section {
+  background-color: var(--color-surface);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Image Wrapper */
+.about-image-column {
+  position: relative;
+}
+
+.about-image-wrapper {
+  position: relative;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+}
+
+.about-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Experience Badge */
+.about-experience-badge {
+  position: absolute;
+  bottom: 2rem;
+  right: -2rem; /* Pull out slightly for a broken-grid effect */
+  padding: 1.5rem 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 160px;
+  box-shadow: var(--shadow-lg);
+  background: rgba(255, 255, 255, 0.95) !important;
+}
+
+.about-experience-number {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.about-experience-text {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .about-experience-badge {
+    right: 2rem;
+    bottom: -2rem;
+  }
+}
+
+/* Content Area */
+.about-content {
+  padding-left: 2rem;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    padding-left: 0;
+    margin-top: 3rem;
+  }
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.about-description {
+  font-size: 1.125rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.8;
+}
+
+/* Features List */
+.about-features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.about-feature-item {
+  gap: 1.25rem;
+}
+
+.about-feature-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgba(5, 150, 105, 0.1);
+  color: var(--color-primary);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.about-feature-icon-svg {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.about-feature-text h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.about-feature-text p {
+  font-size: 0.95rem;
+}
+
+.about-btn {
+  margin-top: 1rem;
+}
