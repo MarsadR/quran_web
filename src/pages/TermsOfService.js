@@ -20,7 +20,7 @@ import './TermsOfService.css';
 export function TermsOfService() {
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Terms of Service - Al Quran App";
+    document.title = "Terms of Service - Al Quran";
   }, []);
 
   const scrollToSection = (id) => {
@@ -73,7 +73,7 @@ export function TermsOfService() {
           </h1>
 
           <p className="terms-subtitle">
-            Please read these Terms of Service carefully before using the <strong className="text-[var(--color-primary-dark)]">Al Quran App</strong> and related services.
+            Please read these Terms of Service carefully before using the <strong className="text-[var(--color-primary-dark)]">Al Quran</strong> and related services.
           </p>
 
           <div className="terms-meta flex items-center justify-center gap-4 mt-6">
@@ -136,11 +136,11 @@ export function TermsOfService() {
               </div>
               <div>
                 <h2 className="card-title font-heading">1. Acceptance of Terms</h2>
-                <p className="card-subtitle">Binding agreement between you and Al Quran App</p>
+                <p className="card-subtitle">Binding agreement between you and Al Quran</p>
               </div>
             </div>
             <p className="policy-text">
-              By downloading, installing, accessing, or using the <strong>Al Quran App</strong> (`com.marsad77.alquranapp`), you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our <a href="/privacy-policy" className="text-[var(--color-primary-dark)] underline font-semibold">Privacy Policy</a>. 
+              By downloading, installing, accessing, or using the <strong>Al Quran</strong> (`com.marsad77.alquranapp`), you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our <a href="/privacy-policy" className="text-[var(--color-primary-dark)] underline font-semibold">Privacy Policy</a>. 
             </p>
             <p className="policy-text">
               If you do not agree with any portion of these terms, you must immediately cease using the application and uninstall it from your device.
@@ -293,7 +293,7 @@ export function TermsOfService() {
               </div>
             </div>
 
-            <p className="policy-text">When using the Al Quran App, you agree NOT to:</p>
+            <p className="policy-text">When using the Al Quran, you agree NOT to:</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
               <div className="p-4 rounded-xl bg-[var(--color-surface)] border border-[var(--color-border)] text-sm text-[var(--color-text-muted)]">
                 <AlertTriangle className="w-5 h-5 text-[var(--color-accent)] mb-2" />
@@ -333,7 +333,7 @@ export function TermsOfService() {
             </div>
 
             <p className="policy-text">
-              The Al Quran App and all related content, audio, and tools are provided on an <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong> basis. While we strive for 100% accuracy in prayer time algorithms, Quranic text rendering, and recitation streaming, we do not guarantee uninterrupted or error-free operation.
+              The Al Quran and all related content, audio, and tools are provided on an <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong> basis. While we strive for 100% accuracy in prayer time algorithms, Quranic text rendering, and recitation streaming, we do not guarantee uninterrupted or error-free operation.
             </p>
             <p className="policy-text">
               Under no circumstances shall the app developers, mosque administration, or affiliates be liable for any indirect, incidental, or consequential damages resulting from your use of the application.

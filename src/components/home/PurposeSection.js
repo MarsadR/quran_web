@@ -8,7 +8,7 @@ export function PurposeSection() {
     {
       icon: <Heart className="purpose-icon text-rose-500" />,
       title: "Our Core Mission",
-      description: "Al Quran App is designed to be your comprehensive Islamic companion. We empower Muslims globally to seamlessly read the Quran, track daily prayers, and grow their faith with our AI assistant."
+      description: "Al Quran is designed to be your comprehensive Islamic companion. We empower Muslims globally to seamlessly read the Quran, track daily prayers, and grow their faith with our AI assistant."
     },
     {
       icon: <UserCheck className="purpose-icon text-blue-500" />,
@@ -53,7 +53,7 @@ export function PurposeSection() {
             Built with <span className="text-emerald-600">Purpose</span> & <span className="text-blue-600">Trust</span>
           </h2>
           <p className="purpose-subtitle">
-            Everything you need to know about what Al Quran App does and how we protect your data.
+            Everything you need to know about what Al Quran does and how we protect your data.
           </p>
         </motion.div>
 

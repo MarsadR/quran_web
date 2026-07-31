@@ -22,14 +22,14 @@ export function Footer() {
           >
             <Link to="/" onClick={scrollToTop} className="footer-logo">
               <img src="/web_logo.png" alt="Quran App Logo" style={{ height: '48px', width: 'auto' }} />
-              <span>Al Quran App</span>
+              <span>Al Quran</span>
             </Link>
             <p className="footer-desc">
               Your complete Islamic companion — Quran, Hadith, AI Assistant,
               prayer times, and daily worship tools in one beautiful app.
             </p>
             <p className="footer-desc" style={{ fontSize: '0.85rem', marginTop: '-0.5rem', opacity: 0.9 }}>
-              <strong>OAuth & Data Transparency:</strong> Al Quran App requests Google Sign-In to securely authenticate users. We strictly use your email and basic profile data to sync your bookmarks, prayer time settings, and subscription status across your devices.
+              <strong>OAuth & Data Transparency:</strong> Al Quran requests Google Sign-In to securely authenticate users. We strictly use your email and basic profile data to sync your bookmarks, prayer time settings, and subscription status across your devices.
             </p>
             <div className="footer-socials">
               <a href="#fb" className="social-btn" aria-label="Facebook"><Globe className="social-icon" /></a>

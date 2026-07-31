@@ -8,7 +8,7 @@ import { CTASection } from '../components/home/CTASection';
 
 export function Home() {
   useEffect(() => {
-    document.title = 'Al Quran App';
+    document.title = 'Al Quran';
   }, []);
 
   return (

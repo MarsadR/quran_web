@@ -81,7 +81,7 @@ export function HeroSection() {
               transition={{ delay: 0.15, duration: 0.7 }}
               className="hero-title"
             >
-              Al Quran App: Your
+              Al Quran: Your
               <span className="hero-title-accent" style={{ display: 'block', marginTop: '0.5rem' }}>
                 <Typewriter
                   options={{
@@ -102,7 +102,7 @@ export function HeroSection() {
               className="hero-description"
               style={{ fontSize: '1.1rem', lineHeight: '1.7', marginBottom: '2.5rem', opacity: 0.95 }}
             >
-              <strong>Al Quran App</strong> is your comprehensive Islamic spiritual companion designed to help Muslims worldwide grow their faith. Our application empowers users to seamlessly read and listen to the Holy Quran, track daily prayer times, learn through our interactive AI Assistant, and maintain daily worship routines with our Tasbeeh counter. To ensure a seamless and personalized experience, we use <strong>Google Sign-In</strong> for secure authentication. We request your basic profile information solely to safeguard your account and seamlessly sync your bookmarks, prayer configurations, and subscription status across all your devices.
+              <strong>Al Quran</strong> is your comprehensive Islamic spiritual companion designed to help Muslims worldwide grow their faith. Our application empowers users to seamlessly read and listen to the Holy Quran, track daily prayer times, learn through our interactive AI Assistant, and maintain daily worship routines with our Tasbeeh counter. To ensure a seamless and personalized experience, we use <strong>Google Sign-In</strong> for secure authentication. We request your basic profile information solely to safeguard your account and seamlessly sync your bookmarks, prayer configurations, and subscription status across all your devices.
             </motion.p>
 
             <motion.div

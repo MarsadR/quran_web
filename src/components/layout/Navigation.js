@@ -27,7 +27,7 @@ export function Navigation() {
       <div className="container nav-container">
         <a href="/#home" className="nav-logo">
           <img src="/web_logo.png" alt="Quran App Logo" style={{ height: '60px', width: 'auto' }} />
-          <span className="nav-logo-text">Al Quran App</span>
+          <span className="nav-logo-text">Al Quran</span>
         </a>
 
         <div className="nav-desktop">
