@@ -81,8 +81,8 @@ export function HeroSection() {
               transition={{ delay: 0.15, duration: 0.7 }}
               className="hero-title"
             >
-              Your Complete
-              <span className="hero-title-accent">
+              Al Quran App: Your
+              <span className="hero-title-accent" style={{ display: 'block', marginTop: '0.5rem' }}>
                 <Typewriter
                   options={{
                     strings: ['Spiritual Companion', 'Quran Teacher', 'Daily Guide'],
@@ -102,7 +102,8 @@ export function HeroSection() {
               className="hero-description"
             >
               Read the Quran, ask our intelligent AI Assistant, track daily prayers,
-              and grow your faith — all in one beautifully crafted, ad-free experience.
+              and grow your faith — all in one beautifully crafted, ad-free experience. 
+              <strong> We use Google Sign-In to securely authenticate you and sync your spiritual progress across devices.</strong>
             </motion.p>
 
             <motion.div
