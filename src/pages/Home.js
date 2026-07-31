@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { HeroSection } from '../components/home/HeroSection';
+import { PurposeSection } from '../components/home/PurposeSection';
 import { FeaturesSection } from '../components/home/FeaturesSection';
 import { AppShowcase } from '../components/home/AppShowcase';
 import { PrayerSchedule } from '../components/home/PrayerSchedule';
@@ -14,6 +15,7 @@ export function Home() {
   return (
     <main className="home-page">
       <HeroSection />
+      <PurposeSection />
       <FeaturesSection />
       <AppShowcase />
       <PrayerSchedule />

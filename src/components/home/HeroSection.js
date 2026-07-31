@@ -100,10 +100,9 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.7 }}
               className="hero-description"
+              style={{ fontSize: '1.1rem', lineHeight: '1.7', marginBottom: '2.5rem', opacity: 0.95 }}
             >
-              Read the Quran, ask our intelligent AI Assistant, track daily prayers,
-              and grow your faith — all in one beautifully crafted, ad-free experience. 
-              <strong> We use Google Sign-In to securely authenticate you and sync your spiritual progress across devices.</strong>
+              <strong>Al Quran App</strong> is your comprehensive Islamic spiritual companion designed to help Muslims worldwide grow their faith. Our application empowers users to seamlessly read and listen to the Holy Quran, track daily prayer times, learn through our interactive AI Assistant, and maintain daily worship routines with our Tasbeeh counter. To ensure a seamless and personalized experience, we use <strong>Google Sign-In</strong> for secure authentication. We request your basic profile information solely to safeguard your account and seamlessly sync your bookmarks, prayer configurations, and subscription status across all your devices.
             </motion.p>
 
             <motion.div
