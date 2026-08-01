@@ -88,8 +88,8 @@ export function Footer() {
             <ul className="footer-contact">
               <li className="footer-contact-item">
                 <Mail className="footer-contact-icon" />
-                <a href="mailto:support@qubitkode.com" className="footer-link">
-                  support@qubitkode.com
+                <a href="mailto:marsadrd@gmail.com" className="footer-link">
+                  marsadrd@gmail.com
                 </a>
               </li>
               <li className="footer-contact-item">

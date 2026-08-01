@@ -66,8 +66,8 @@ export function ContactUs() {
               <p className="card-desc">
                 For support, feedback, and general inquiries. We aim to respond within 24 hours.
               </p>
-              <a href="mailto:support@qubitkode.com" className="contact-action-link">
-                support@qubitkode.com
+              <a href="mailto:marsadrd@gmail.com" className="contact-action-link">
+                marsadrd@gmail.com
               </a>
             </motion.div>
 
