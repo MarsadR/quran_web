@@ -373,7 +373,7 @@ export function PrivacyPolicy() {
 
               <div className="deletion-note mt-6">
                 <p className="text-sm text-[var(--color-text-muted)]">
-                  <strong>Alternative Web Request:</strong> If you cannot access the app, you can request immediate account erasure by sending an email to <a href="mailto:marsadrd@gmail.com" className="text-[var(--color-primary-dark)] underline">marsadrd@gmail.com</a> with the subject line <em>"Account Deletion Request"</em>. All profile records, notes, and sync files will be permanently purged within 30 days.
+                  <strong>Alternative Web Request:</strong> If you cannot access the app, you can request immediate account erasure by sending an email to <a href="mailto:support@qubitkode.com" className="text-[var(--color-primary-dark)] underline">support@qubitkode.com</a> or <a href="mailto:marsadrd@gmail.com" className="text-[var(--color-primary-dark)] underline">marsadrd@gmail.com</a> with the subject line <em>"Account Deletion Request"</em>. All profile records, notes, and sync files will be permanently purged within 30 days.
                 </p>
               </div>
             </div>
@@ -406,7 +406,8 @@ export function PrivacyPolicy() {
                 <Mail className="w-6 h-6 text-[var(--color-primary-dark)] mt-1" />
                 <div>
                   <h4 className="font-heading text-[var(--color-text)] font-bold">Email Inquiries</h4>
-                  <a href="mailto:marsadrd@gmail.com" className="text-[var(--color-primary-dark)] font-semibold hover:underline">marsadrd@gmail.com</a>
+                  <a href="mailto:support@qubitkode.com" className="text-[var(--color-primary-dark)] font-semibold hover:underline block">support@qubitkode.com</a>
+                  <a href="mailto:marsadrd@gmail.com" className="text-[var(--color-primary-dark)] font-semibold hover:underline block">marsadrd@gmail.com</a>
                   <p className="text-xs text-[var(--color-text-muted)] mt-1">Response time: Within 24-48 hours</p>
                 </div>
               </div>

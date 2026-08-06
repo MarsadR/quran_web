@@ -367,7 +367,8 @@ export function TermsOfService() {
                 <Mail className="w-6 h-6 text-[var(--color-primary-dark)] mt-1" />
                 <div>
                   <h4 className="font-heading text-[var(--color-text)] font-bold">Terms & Legal Support</h4>
-                  <a href="mailto:marsadrd@gmail.com" className="text-[var(--color-primary-dark)] font-semibold hover:underline">marsadrd@gmail.com</a>
+                  <a href="mailto:support@qubitkode.com" className="text-[var(--color-primary-dark)] font-semibold hover:underline block">support@qubitkode.com</a>
+                  <a href="mailto:marsadrd@gmail.com" className="text-[var(--color-primary-dark)] font-semibold hover:underline block">marsadrd@gmail.com</a>
                   <p className="text-xs text-[var(--color-text-muted)] mt-1">Response time: Within 24-48 hours</p>
                 </div>
               </div>

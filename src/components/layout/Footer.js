@@ -88,9 +88,14 @@ export function Footer() {
             <ul className="footer-contact">
               <li className="footer-contact-item">
                 <Mail className="footer-contact-icon" />
-                <a href="mailto:marsadrd@gmail.com" className="footer-link">
-                  marsadrd@gmail.com
-                </a>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                  <a href="mailto:support@qubitkode.com" className="footer-link">
+                    support@qubitkode.com
+                  </a>
+                  <a href="mailto:marsadrd@gmail.com" className="footer-link">
+                    marsadrd@gmail.com
+                  </a>
+                </div>
               </li>
               <li className="footer-contact-item">
                 <MapPin className="footer-contact-icon" />
